@@ -1,4 +1,4 @@
-package com.slavamashkov.spring.mvc_spring_aop.entity;
+package com.slavamashkov.spring.mvc_hibernate_aop.entity;
 
 import lombok.*;
 

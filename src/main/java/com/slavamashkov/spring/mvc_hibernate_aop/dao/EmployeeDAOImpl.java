@@ -1,6 +1,6 @@
-package com.slavamashkov.spring.mvc_spring_aop.dao;
+package com.slavamashkov.spring.mvc_hibernate_aop.dao;
 
-import com.slavamashkov.spring.mvc_spring_aop.entity.Employee;
+import com.slavamashkov.spring.mvc_hibernate_aop.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -11,7 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * DAO class
+ * DAO class responsible for providing
+ * CRUD operations on database table
  * */
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO {
@@ -23,7 +24,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
      * @return List of all Employees in table
      */
     @Override
-    @Transactional // Spring take responsibility for open/close transaction
     public List<Employee> getAllEmployees() {
         Session session = sessionFactory.getCurrentSession();
         Query<Employee> query = session.createQuery("from Employee ", Employee.class);

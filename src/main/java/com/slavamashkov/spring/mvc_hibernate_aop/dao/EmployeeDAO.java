@@ -1,6 +1,6 @@
-package com.slavamashkov.spring.mvc_spring_aop.dao;
+package com.slavamashkov.spring.mvc_hibernate_aop.dao;
 
-import com.slavamashkov.spring.mvc_spring_aop.entity.Employee;
+import com.slavamashkov.spring.mvc_hibernate_aop.entity.Employee;
 
 import java.util.List;
 /**
