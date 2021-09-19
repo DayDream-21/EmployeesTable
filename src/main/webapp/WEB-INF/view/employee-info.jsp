@@ -1,5 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
     <head>
         <title>Employee Info</title>
@@ -11,6 +11,8 @@
         <br>
 
         <form:form action="saveEmployee" modelAttribute="employee">
+            <form:hidden path="id"/>
+
             Name <form:input path="name"/>
             <br><br>
             Surname <form:input path="surname"/>
