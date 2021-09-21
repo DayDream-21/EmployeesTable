@@ -185,3 +185,1027 @@
 20:46:56,873 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
 20:50:41,370 TRACE TypeConfiguration$Scope:208 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@27c531c3] for TypeConfiguration
 20:50:41,370 DEBUG TypeConfiguration$Scope:345 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@389b0789] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@27c531c3]
+17:09:00,232  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcher'
+17:09:00,856  INFO MLog:212 - MLog clients using slf4j logging.
+17:09:00,904  INFO C3P0Registry:212 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+17:09:01,112  INFO Version:44 - HHH000412: Hibernate ORM core version 5.5.7.Final
+17:09:01,398  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:09:01,451 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@1eaf5941
+17:09:01,451 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@1eaf5941
+17:09:01,452 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1eaf5941
+17:09:01,453 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7b58f927
+17:09:01,455 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5c028ed3
+17:09:01,458 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@1b7537c
+17:09:01,461 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@36fe616
+17:09:01,461 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@36fe616
+17:09:01,461 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@36fe616
+17:09:01,463 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@71b54248
+17:09:01,464 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@71b54248
+17:09:01,465 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@71b54248
+17:09:01,467 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@58b982de
+17:09:01,467 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@58b982de
+17:09:01,468 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@58b982de
+17:09:01,469 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@516db61
+17:09:01,469 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@516db61
+17:09:01,470 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@516db61
+17:09:01,471 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@6d65e03c
+17:09:01,471 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@6d65e03c
+17:09:01,472 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@6d65e03c
+17:09:01,473 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@3419cc5c
+17:09:01,474 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@3419cc5c
+17:09:01,474 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3419cc5c
+17:09:01,476 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@73015a09
+17:09:01,476 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@73015a09
+17:09:01,476 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@73015a09
+17:09:01,477 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@99f0d39
+17:09:01,478 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@99f0d39
+17:09:01,480 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@965f0fe
+17:09:01,480 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@965f0fe
+17:09:01,481 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@42df2ab2
+17:09:01,482 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@42df2ab2
+17:09:01,483 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4d2b8184
+17:09:01,483 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5b3ca00d
+17:09:01,485 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@371f275a
+17:09:01,485 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@371f275a
+17:09:01,487 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@6eaf3b4e
+17:09:01,487 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6eaf3b4e
+17:09:01,489 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@d7aa6a6
+17:09:01,489 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@d7aa6a6
+17:09:01,491 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@457a1381
+17:09:01,491 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@457a1381
+17:09:01,494 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@177bef3b
+17:09:01,495 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@177bef3b
+17:09:01,496 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@318f11c0
+17:09:01,496 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@318f11c0
+17:09:01,499 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2f14e4b6
+17:09:01,499 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@2f14e4b6
+17:09:01,501 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@69271371
+17:09:01,502 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@69271371
+17:09:01,504 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6a35d96d
+17:09:01,504 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6a35d96d
+17:09:01,505 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@627630c1
+17:09:01,506 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@627630c1
+17:09:01,507 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@383eb2d5
+17:09:01,507 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@383eb2d5
+17:09:01,508 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7d481454
+17:09:01,509 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7d481454
+17:09:01,509 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7d481454
+17:09:01,511 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@69e6434c
+17:09:01,513 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@2e700bf6
+17:09:01,513 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2e700bf6
+17:09:01,514 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2e700bf6
+17:09:01,515 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@32f9f5cf
+17:09:01,516 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@78304581
+17:09:01,517 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@4520c88
+17:09:01,517 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4520c88
+17:09:01,519 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@14bbd274
+17:09:01,519 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@14bbd274
+17:09:01,520 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@145806f7
+17:09:01,520 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@145806f7
+17:09:01,521 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@b02d817
+17:09:01,522 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@b02d817
+17:09:01,523 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@799fcbe8
+17:09:01,523 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@799fcbe8
+17:09:01,524 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5c58de5c
+17:09:01,525 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@7d912445
+17:09:01,525 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@7d912445
+17:09:01,526 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@7d912445
+17:09:01,527 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4b52d169
+17:09:01,527 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4b52d169
+17:09:01,527 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4b52d169
+17:09:01,529 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@1518e7eb
+17:09:01,529 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@97b1447
+17:09:01,531 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@38ff9d7e
+17:09:01,531 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@38ff9d7e
+17:09:01,531 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@38ff9d7e
+17:09:01,533 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3cfd8f8f
+17:09:01,533 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3cfd8f8f
+17:09:01,533 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3cfd8f8f
+17:09:01,535 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@53eae288
+17:09:01,535 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@60a3cf86
+17:09:01,537 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@5622e654
+17:09:01,538 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5622e654
+17:09:01,538 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2eb8bca
+17:09:01,540 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@ba2f9ab
+17:09:01,540 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@ba2f9ab
+17:09:01,542 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@7316731a
+17:09:01,542 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7316731a
+17:09:01,543 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2a49cd1b
+17:09:01,544 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@309acf5b
+17:09:01,546 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@562636e9
+17:09:01,550 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@12d1e871
+17:09:01,551 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@12d1e871
+17:09:01,552 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@59fcac5c
+17:09:01,552 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2d9516a0
+17:09:01,553 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@57ce6ed4
+17:09:01,553 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@9d57fb0
+17:09:01,553 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@3577ac9a
+17:09:01,553 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@30529c82
+17:09:01,553 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@14ceec92
+17:09:01,554 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@36443944
+17:09:01,655  INFO AbstractPoolBackedDataSource:212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1b60fivak2esbmkyev48v|19a43a6e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1b60fivak2esbmkyev48v|19a43a6e, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/my_db?useSSL=false&serverTimezone=UTC, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+17:09:31,924  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@306b276a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:09:31,924  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2d309985 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:09:31,924  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@68d97550 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:09:31,927  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:09:31,934  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:09:31,934  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:09:31,937  WARN JdbcEnvironmentInitiator:133 - HHH000342: Could not obtain connection to query metadata
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:692)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:709)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:744)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:616)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:989)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4957)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1783)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:293)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:460)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:408)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:293)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management/com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1406)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1469)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:644)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:554)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:758)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:685)
+	... 131 more
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:09:31,983  INFO Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:09:32,026 DEBUG TypeConfiguration$Scope:149 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@f372b9b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@eac25d4]
+17:09:32,419 DEBUG TypeConfiguration$Scope:154 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@f372b9b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6d87c87e]
+17:09:32,846  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:09:32,860 TRACE TypeConfiguration$Scope:202 - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6d87c87e] for TypeConfiguration
+17:09:33,313  INFO DispatcherServlet:547 - Completed initialization in 33079 ms
+17:10:03,855  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@3a79f4ca -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:03,856  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@55d6c0a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:03,855  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1ab3c205 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:03,856  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:03,863  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:03,863  WARN SqlExceptionHelper:137 - SQL Error: 0, SQLState: null
+17:10:03,863  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:03,864 ERROR SqlExceptionHelper:142 - Connections could not be acquired from the underlying database!
+17:10:34,190  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5720c8a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:34,190  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4945d610 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:34,190  WARN BasicResourcePool:223 - com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@14e65e43 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1138)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1125)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1870)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:434)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:209)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1352)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:132)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 12 more
+17:10:34,191  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:34,201  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:34,201  WARN SqlExceptionHelper:137 - SQL Error: 0, SQLState: null
+17:10:34,201  WARN BasicResourcePool:220 - Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@43402077 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+17:10:34,201 ERROR SqlExceptionHelper:142 - Connections could not be acquired from the underlying database!
+17:11:19,025 TRACE TypeConfiguration$Scope:208 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6d87c87e] for TypeConfiguration
+17:11:19,025 DEBUG TypeConfiguration$Scope:345 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@389b0789] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6d87c87e]
+17:11:36,085  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcher'
+17:11:36,686  INFO MLog:212 - MLog clients using slf4j logging.
+17:11:36,728  INFO C3P0Registry:212 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+17:11:36,939  INFO Version:44 - HHH000412: Hibernate ORM core version 5.5.7.Final
+17:11:37,201  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:11:37,252 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@22c9cae4
+17:11:37,252 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@22c9cae4
+17:11:37,253 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@22c9cae4
+17:11:37,254 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@30e616fb
+17:11:37,255 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5ee7b02
+17:11:37,255 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@575c79ce
+17:11:37,257 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@7f941f00
+17:11:37,258 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@7f941f00
+17:11:37,258 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7f941f00
+17:11:37,260 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@11cdab57
+17:11:37,260 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@11cdab57
+17:11:37,261 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@11cdab57
+17:11:37,263 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@53e9242c
+17:11:37,263 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@53e9242c
+17:11:37,264 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@53e9242c
+17:11:37,266 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@20c99ac2
+17:11:37,266 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@20c99ac2
+17:11:37,267 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@20c99ac2
+17:11:37,269 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@37e9441b
+17:11:37,269 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@37e9441b
+17:11:37,269 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@37e9441b
+17:11:37,272 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@dd837f0
+17:11:37,272 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@dd837f0
+17:11:37,273 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@dd837f0
+17:11:37,275 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@62218c55
+17:11:37,275 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@62218c55
+17:11:37,275 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@62218c55
+17:11:37,277 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1f7666
+17:11:37,277 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1f7666
+17:11:37,278 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@21b59a70
+17:11:37,279 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@21b59a70
+17:11:37,280 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@7e847ad5
+17:11:37,281 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@7e847ad5
+17:11:37,282 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@189f245
+17:11:37,283 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1bd563eb
+17:11:37,285 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@776d1498
+17:11:37,285 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@776d1498
+17:11:37,286 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@32e63e6
+17:11:37,287 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@32e63e6
+17:11:37,289 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@61d98157
+17:11:37,289 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@61d98157
+17:11:37,292 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2393ea9a
+17:11:37,292 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2393ea9a
+17:11:37,294 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@55c696bc
+17:11:37,294 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@55c696bc
+17:11:37,296 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2ca3b34
+17:11:37,297 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2ca3b34
+17:11:37,299 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@48516634
+17:11:37,300 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@48516634
+17:11:37,302 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@3f8dfd49
+17:11:37,302 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@3f8dfd49
+17:11:37,304 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4d3fb1a7
+17:11:37,304 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4d3fb1a7
+17:11:37,306 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@572f868f
+17:11:37,306 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@572f868f
+17:11:37,308 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@7bbf5193
+17:11:37,309 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7bbf5193
+17:11:37,311 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@392b7948
+17:11:37,311 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@392b7948
+17:11:37,311 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@392b7948
+17:11:37,313 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@21b56694
+17:11:37,314 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@c476d4b
+17:11:37,315 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@c476d4b
+17:11:37,315 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@c476d4b
+17:11:37,316 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@134504fc
+17:11:37,317 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@1a5ed6c0
+17:11:37,319 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@5c62c891
+17:11:37,319 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5c62c891
+17:11:37,320 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@56507ccd
+17:11:37,320 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@56507ccd
+17:11:37,321 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1ec33a8c
+17:11:37,322 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1ec33a8c
+17:11:37,323 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@21a52ae2
+17:11:37,323 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@21a52ae2
+17:11:37,324 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3d215d68
+17:11:37,324 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3d215d68
+17:11:37,325 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@23b4ef0a
+17:11:37,326 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@5a82be11
+17:11:37,326 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@5a82be11
+17:11:37,326 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@5a82be11
+17:11:37,327 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@289d9fd7
+17:11:37,328 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@289d9fd7
+17:11:37,328 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@289d9fd7
+17:11:37,329 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@61610ace
+17:11:37,330 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@7ed5c9a0
+17:11:37,332 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@ea3fab8
+17:11:37,332 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@ea3fab8
+17:11:37,332 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@ea3fab8
+17:11:37,334 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@53fffb44
+17:11:37,334 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@53fffb44
+17:11:37,334 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@53fffb44
+17:11:37,335 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@11e7e39b
+17:11:37,337 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@758144b6
+17:11:37,339 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@1722740e
+17:11:37,339 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1722740e
+17:11:37,340 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4b105535
+17:11:37,342 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@1e03dfc8
+17:11:37,342 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1e03dfc8
+17:11:37,344 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@619fb6f2
+17:11:37,345 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@619fb6f2
+17:11:37,345 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@181f0119
+17:11:37,346 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@62d9b599
+17:11:37,348 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@75fae75
+17:11:37,353 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@613e56ef
+17:11:37,353 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@613e56ef
+17:11:37,354 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@50132593
+17:11:37,354 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1f252399
+17:11:37,354 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@25364f05
+17:11:37,355 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2ae10112
+17:11:37,355 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@63178660
+17:11:37,355 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@55984870
+17:11:37,355 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@42416ba1
+17:11:37,356 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@608a0b6a
+17:11:37,447  INFO AbstractPoolBackedDataSource:212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1b60fivak2evnv2nq3eby|2725ddc7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1b60fivak2evnv2nq3eby|2725ddc7, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/my_db?useSSL=false&serverTimezone=UTC, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+17:11:37,692  INFO Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:11:37,737 DEBUG TypeConfiguration$Scope:149 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@453e5907] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@53c9f6a7]
+17:11:38,031 DEBUG TypeConfiguration$Scope:154 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@453e5907] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@8d2665b]
+17:11:38,411  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:11:38,422 TRACE TypeConfiguration$Scope:202 - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@8d2665b] for TypeConfiguration
+17:11:38,859  INFO DispatcherServlet:547 - Completed initialization in 2772 ms
+17:11:39,532 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+17:11:39,539 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:11:39,540 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Zaur]
+17:11:39,540 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [500]
+17:11:39,540 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Tregulov]
+17:11:39,542 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+17:11:39,543 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:39,543 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Oleg]
+17:11:39,543 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:11:39,544 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Ivanov]
+17:11:39,544 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+17:11:39,544 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:11:39,545 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Nina]
+17:11:39,545 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [720]
+17:11:39,545 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Sidorova]
+17:11:39,545 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [4]
+17:11:39,545 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:11:39,546 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Slava]
+17:11:39,546 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [630]
+17:11:39,546 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Mashkov]
+17:11:39,546 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [5]
+17:11:39,547 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:39,547 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Ivan]
+17:11:39,547 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:11:39,548 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Petrov]
+17:11:39,548 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [6]
+17:11:39,548 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:39,548 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Mariya]
+17:11:39,549 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [950]
+17:11:39,549 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
+17:11:40,546 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+17:11:40,547 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:11:40,547 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Zaur]
+17:11:40,547 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [500]
+17:11:40,548 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Tregulov]
+17:11:40,548 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+17:11:40,549 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:40,549 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Oleg]
+17:11:40,549 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:11:40,550 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Ivanov]
+17:11:40,550 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+17:11:40,551 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:11:40,551 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Nina]
+17:11:40,551 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [720]
+17:11:40,551 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Sidorova]
+17:11:40,552 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [4]
+17:11:40,552 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:11:40,552 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Slava]
+17:11:40,552 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [630]
+17:11:40,552 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Mashkov]
+17:11:40,553 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [5]
+17:11:40,553 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:40,553 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Ivan]
+17:11:40,553 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:11:40,553 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Petrov]
+17:11:40,554 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [6]
+17:11:40,554 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:11:40,554 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Mariya]
+17:11:40,555 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [950]
+17:11:40,555 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
+17:12:17,711 TRACE TypeConfiguration$Scope:208 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@8d2665b] for TypeConfiguration
+17:12:17,711 DEBUG TypeConfiguration$Scope:345 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@6ca18a14] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@8d2665b]
+17:12:38,886  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcher'
+17:12:39,485  INFO MLog:212 - MLog clients using slf4j logging.
+17:12:39,529  INFO C3P0Registry:212 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+17:12:39,736  INFO Version:44 - HHH000412: Hibernate ORM core version 5.5.7.Final
+17:12:40,002  INFO Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:12:40,059 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@141ab283
+17:12:40,059 DEBUG BasicTypeRegistry:157 - Adding type registration boolean -> org.hibernate.type.BooleanType@141ab283
+17:12:40,060 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@141ab283
+17:12:40,061 DEBUG BasicTypeRegistry:157 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3c9e38a0
+17:12:40,062 DEBUG BasicTypeRegistry:157 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@746c6bd7
+17:12:40,063 DEBUG BasicTypeRegistry:157 - Adding type registration yes_no -> org.hibernate.type.YesNoType@63e5f37e
+17:12:40,065 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@35d13daf
+17:12:40,065 DEBUG BasicTypeRegistry:157 - Adding type registration byte -> org.hibernate.type.ByteType@35d13daf
+17:12:40,065 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@35d13daf
+17:12:40,067 DEBUG BasicTypeRegistry:157 - Adding type registration character -> org.hibernate.type.CharacterType@3cfb72cf
+17:12:40,067 DEBUG BasicTypeRegistry:157 - Adding type registration char -> org.hibernate.type.CharacterType@3cfb72cf
+17:12:40,068 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3cfb72cf
+17:12:40,069 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@439a9f74
+17:12:40,069 DEBUG BasicTypeRegistry:157 - Adding type registration short -> org.hibernate.type.ShortType@439a9f74
+17:12:40,070 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@439a9f74
+17:12:40,071 DEBUG BasicTypeRegistry:157 - Adding type registration integer -> org.hibernate.type.IntegerType@21e59778
+17:12:40,071 DEBUG BasicTypeRegistry:157 - Adding type registration int -> org.hibernate.type.IntegerType@21e59778
+17:12:40,072 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@21e59778
+17:12:40,073 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@2ac4455d
+17:12:40,074 DEBUG BasicTypeRegistry:157 - Adding type registration long -> org.hibernate.type.LongType@2ac4455d
+17:12:40,074 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2ac4455d
+17:12:40,076 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@6943428a
+17:12:40,076 DEBUG BasicTypeRegistry:157 - Adding type registration float -> org.hibernate.type.FloatType@6943428a
+17:12:40,077 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6943428a
+17:12:40,078 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@2f0b823
+17:12:40,079 DEBUG BasicTypeRegistry:157 - Adding type registration double -> org.hibernate.type.DoubleType@2f0b823
+17:12:40,079 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2f0b823
+17:12:40,081 DEBUG BasicTypeRegistry:157 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@40635072
+17:12:40,081 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@40635072
+17:12:40,082 DEBUG BasicTypeRegistry:157 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@179f6876
+17:12:40,083 DEBUG BasicTypeRegistry:157 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@179f6876
+17:12:40,084 DEBUG BasicTypeRegistry:157 - Adding type registration string -> org.hibernate.type.StringType@eea6269
+17:12:40,084 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.String -> org.hibernate.type.StringType@eea6269
+17:12:40,085 DEBUG BasicTypeRegistry:157 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2afef840
+17:12:40,086 DEBUG BasicTypeRegistry:157 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@52f2eef3
+17:12:40,088 DEBUG BasicTypeRegistry:157 - Adding type registration url -> org.hibernate.type.UrlType@56d338cd
+17:12:40,088 DEBUG BasicTypeRegistry:157 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@56d338cd
+17:12:40,089 DEBUG BasicTypeRegistry:157 - Adding type registration Duration -> org.hibernate.type.DurationType@4ff10ebb
+17:12:40,090 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4ff10ebb
+17:12:40,091 DEBUG BasicTypeRegistry:157 - Adding type registration Instant -> org.hibernate.type.InstantType@274db303
+17:12:40,092 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@274db303
+17:12:40,095 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@42a29c8b
+17:12:40,095 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@42a29c8b
+17:12:40,097 DEBUG BasicTypeRegistry:157 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@191c2e70
+17:12:40,097 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@191c2e70
+17:12:40,099 DEBUG BasicTypeRegistry:157 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5c0294a1
+17:12:40,099 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5c0294a1
+17:12:40,101 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@14f351ab
+17:12:40,102 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@14f351ab
+17:12:40,104 DEBUG BasicTypeRegistry:157 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1fb0d8ab
+17:12:40,105 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1fb0d8ab
+17:12:40,107 DEBUG BasicTypeRegistry:157 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@d57fc27
+17:12:40,107 DEBUG BasicTypeRegistry:157 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@d57fc27
+17:12:40,109 DEBUG BasicTypeRegistry:157 - Adding type registration date -> org.hibernate.type.DateType@4611ad51
+17:12:40,109 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@4611ad51
+17:12:40,110 DEBUG BasicTypeRegistry:157 - Adding type registration time -> org.hibernate.type.TimeType@d199cd5
+17:12:40,111 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@d199cd5
+17:12:40,112 DEBUG BasicTypeRegistry:157 - Adding type registration timestamp -> org.hibernate.type.TimestampType@1efd04a5
+17:12:40,113 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1efd04a5
+17:12:40,113 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1efd04a5
+17:12:40,115 DEBUG BasicTypeRegistry:157 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6c3ec4bd
+17:12:40,117 DEBUG BasicTypeRegistry:157 - Adding type registration calendar -> org.hibernate.type.CalendarType@3c40b14b
+17:12:40,117 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3c40b14b
+17:12:40,118 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3c40b14b
+17:12:40,118 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@263d3024
+17:12:40,120 DEBUG BasicTypeRegistry:157 - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@67388d86
+17:12:40,121 DEBUG BasicTypeRegistry:157 - Adding type registration locale -> org.hibernate.type.LocaleType@1538277b
+17:12:40,121 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1538277b
+17:12:40,122 DEBUG BasicTypeRegistry:157 - Adding type registration currency -> org.hibernate.type.CurrencyType@fdc87f
+17:12:40,123 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@fdc87f
+17:12:40,124 DEBUG BasicTypeRegistry:157 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6aefe5e7
+17:12:40,124 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6aefe5e7
+17:12:40,125 DEBUG BasicTypeRegistry:157 - Adding type registration class -> org.hibernate.type.ClassType@5d5e9c51
+17:12:40,125 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5d5e9c51
+17:12:40,126 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@799703b8
+17:12:40,127 DEBUG BasicTypeRegistry:157 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@799703b8
+17:12:40,127 DEBUG BasicTypeRegistry:157 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2409ed08
+17:12:40,129 DEBUG BasicTypeRegistry:157 - Adding type registration binary -> org.hibernate.type.BinaryType@7c4c28f
+17:12:40,129 DEBUG BasicTypeRegistry:157 - Adding type registration byte[] -> org.hibernate.type.BinaryType@7c4c28f
+17:12:40,129 DEBUG BasicTypeRegistry:157 - Adding type registration [B -> org.hibernate.type.BinaryType@7c4c28f
+17:12:40,130 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@d3d1014
+17:12:40,131 DEBUG BasicTypeRegistry:157 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@d3d1014
+17:12:40,131 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@d3d1014
+17:12:40,133 DEBUG BasicTypeRegistry:157 - Adding type registration row_version -> org.hibernate.type.RowVersionType@25ec6e3e
+17:12:40,134 DEBUG BasicTypeRegistry:157 - Adding type registration image -> org.hibernate.type.ImageType@10fad220
+17:12:40,135 DEBUG BasicTypeRegistry:157 - Adding type registration characters -> org.hibernate.type.CharArrayType@c73ca2d
+17:12:40,135 DEBUG BasicTypeRegistry:157 - Adding type registration char[] -> org.hibernate.type.CharArrayType@c73ca2d
+17:12:40,135 DEBUG BasicTypeRegistry:157 - Adding type registration [C -> org.hibernate.type.CharArrayType@c73ca2d
+17:12:40,136 DEBUG BasicTypeRegistry:157 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@20725b1f
+17:12:40,137 DEBUG BasicTypeRegistry:157 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@20725b1f
+17:12:40,137 DEBUG BasicTypeRegistry:157 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@20725b1f
+17:12:40,138 DEBUG BasicTypeRegistry:157 - Adding type registration text -> org.hibernate.type.TextType@31508289
+17:12:40,139 DEBUG BasicTypeRegistry:157 - Adding type registration ntext -> org.hibernate.type.NTextType@3b379080
+17:12:40,142 DEBUG BasicTypeRegistry:157 - Adding type registration blob -> org.hibernate.type.BlobType@3061540f
+17:12:40,142 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3061540f
+17:12:40,143 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1a2e145c
+17:12:40,144 DEBUG BasicTypeRegistry:157 - Adding type registration clob -> org.hibernate.type.ClobType@edb4ab7
+17:12:40,145 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@edb4ab7
+17:12:40,146 DEBUG BasicTypeRegistry:157 - Adding type registration nclob -> org.hibernate.type.NClobType@51612473
+17:12:40,147 DEBUG BasicTypeRegistry:157 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@51612473
+17:12:40,147 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@aff8264
+17:12:40,148 DEBUG BasicTypeRegistry:157 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3b938bd3
+17:12:40,151 DEBUG BasicTypeRegistry:157 - Adding type registration serializable -> org.hibernate.type.SerializableType@15906702
+17:12:40,156 DEBUG BasicTypeRegistry:157 - Adding type registration object -> org.hibernate.type.ObjectType@7be8439f
+17:12:40,157 DEBUG BasicTypeRegistry:157 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7be8439f
+17:12:40,158 DEBUG BasicTypeRegistry:157 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7c535a89
+17:12:40,158 DEBUG BasicTypeRegistry:157 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4afb99a
+17:12:40,158 DEBUG BasicTypeRegistry:157 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@21868d82
+17:12:40,158 DEBUG BasicTypeRegistry:157 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@14451241
+17:12:40,159 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@72249552
+17:12:40,159 DEBUG BasicTypeRegistry:157 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@b3e91e5
+17:12:40,159 DEBUG BasicTypeRegistry:157 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1ec1e79d
+17:12:40,160 DEBUG BasicTypeRegistry:157 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@22aa291e
+17:12:40,255  INFO AbstractPoolBackedDataSource:212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1b60fivak2ex0bihot0ph|63e93d75, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1b60fivak2ex0bihot0ph|63e93d75, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/my_db?useSSL=false&serverTimezone=UTC, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+17:12:40,491  INFO Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+17:12:40,538 DEBUG TypeConfiguration$Scope:149 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2d0df5a] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@292b08a4]
+17:12:40,830 DEBUG TypeConfiguration$Scope:154 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2d0df5a] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6ee50c9f]
+17:12:41,208  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:12:41,220 TRACE TypeConfiguration$Scope:202 - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6ee50c9f] for TypeConfiguration
+17:12:41,666  INFO DispatcherServlet:547 - Completed initialization in 2778 ms
+17:12:42,371 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+17:12:42,378 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:12:42,379 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Zaur]
+17:12:42,379 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [500]
+17:12:42,380 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Tregulov]
+17:12:42,381 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+17:12:42,382 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:42,382 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Oleg]
+17:12:42,382 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:12:42,383 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Ivanov]
+17:12:42,383 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+17:12:42,383 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:12:42,383 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Nina]
+17:12:42,384 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [720]
+17:12:42,384 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Sidorova]
+17:12:42,384 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [4]
+17:12:42,384 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:12:42,384 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Slava]
+17:12:42,385 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [630]
+17:12:42,385 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Mashkov]
+17:12:42,385 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [5]
+17:12:42,386 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:42,386 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Ivan]
+17:12:42,386 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:12:42,387 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Petrov]
+17:12:42,387 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [6]
+17:12:42,387 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:42,387 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Mariya]
+17:12:42,388 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [950]
+17:12:42,388 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
+17:12:43,363 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+17:12:43,363 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:12:43,364 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Zaur]
+17:12:43,364 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [500]
+17:12:43,364 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Tregulov]
+17:12:43,364 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+17:12:43,365 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:43,365 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Oleg]
+17:12:43,365 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:12:43,365 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Ivanov]
+17:12:43,366 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+17:12:43,366 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:12:43,366 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Nina]
+17:12:43,366 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [720]
+17:12:43,367 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Sidorova]
+17:12:43,367 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [4]
+17:12:43,367 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:12:43,368 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Slava]
+17:12:43,368 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [630]
+17:12:43,368 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Mashkov]
+17:12:43,369 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [5]
+17:12:43,369 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:43,369 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Ivan]
+17:12:43,370 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:12:43,370 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Petrov]
+17:12:43,370 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [6]
+17:12:43,371 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:12:43,371 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Mariya]
+17:12:43,371 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [950]
+17:12:43,372 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
+17:19:11,859 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [HR]
+17:19:11,859 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [Denis]
+17:19:11,860 TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [800]
+17:19:11,860 TRACE BasicBinder:64 - binding parameter [4] as [VARCHAR] - [Trifonov]
+17:19:11,896 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+17:19:11,896 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:19:11,897 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Zaur]
+17:19:11,897 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [500]
+17:19:11,897 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Tregulov]
+17:19:11,897 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+17:19:11,898 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:19:11,898 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Oleg]
+17:19:11,898 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:19:11,899 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Ivanov]
+17:19:11,899 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+17:19:11,899 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:19:11,899 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Nina]
+17:19:11,899 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [720]
+17:19:11,900 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Sidorova]
+17:19:11,900 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [4]
+17:19:11,900 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [IT]
+17:19:11,900 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Slava]
+17:19:11,901 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [630]
+17:19:11,901 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Mashkov]
+17:19:11,901 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [5]
+17:19:11,901 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:19:11,901 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Ivan]
+17:19:11,902 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [700]
+17:19:11,902 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Petrov]
+17:19:11,902 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [6]
+17:19:11,902 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [Sales]
+17:19:11,903 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Mariya]
+17:19:11,903 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [950]
+17:19:11,903 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Semenova]
+17:19:11,903 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [7]
+17:19:11,903 TRACE BasicExtractor:60 - extracted value ([departme2_0_] : [VARCHAR]) - [HR]
+17:19:11,904 TRACE BasicExtractor:60 - extracted value ([name3_0_] : [VARCHAR]) - [Denis]
+17:19:11,904 TRACE BasicExtractor:60 - extracted value ([salary4_0_] : [INTEGER]) - [800]
+17:19:11,904 TRACE BasicExtractor:60 - extracted value ([surname5_0_] : [VARCHAR]) - [Trifonov]
+17:19:58,263 TRACE TypeConfiguration$Scope:208 - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6ee50c9f] for TypeConfiguration
+17:19:58,264 DEBUG TypeConfiguration$Scope:345 - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@13d9cbf5] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6ee50c9f]

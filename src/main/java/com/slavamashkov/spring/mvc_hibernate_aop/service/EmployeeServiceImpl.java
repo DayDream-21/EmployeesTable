@@ -13,18 +13,31 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     private EmployeeDAO employeeDAO;
 
+    /**
+     * Description
+     * @return return
+     */
     @Override
     @Transactional // Spring take responsibility for open/close transaction
     public List<Employee> getAllEmployees() {
         return employeeDAO.getAllEmployees();
     }
 
+    /**
+     * Description
+     * @param employee description
+     */
     @Override
     @Transactional
     public void saveEmployee(Employee employee) {
         employeeDAO.saveEmployee(employee);
     }
 
+    /**
+     * Description
+     * @param id description
+     * @return return
+     */
     @Override
     @Transactional
     public Employee getEmployee(int id) {

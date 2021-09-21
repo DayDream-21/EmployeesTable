@@ -21,6 +21,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     private SessionFactory sessionFactory;
 
     /**
+     * Description
      * @return List of all Employees in table
      */
     @Override
@@ -33,12 +34,21 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         return allEmployees;
     }
 
+    /**
+     * Description
+     * @param employee description
+     */
     @Override
     public void saveEmployee(Employee employee) {
         Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(employee);
     }
 
+    /**
+     * Description
+     * @param id description
+     * @return return
+     */
     @Override
     public Employee getEmployee(int id) {
         Session session = sessionFactory.getCurrentSession();
