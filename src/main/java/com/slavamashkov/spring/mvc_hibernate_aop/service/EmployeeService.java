@@ -23,4 +23,10 @@ public interface EmployeeService {
      * @return return
      */
     Employee getEmployee(int id);
+
+    /**
+     * Description
+     * @param id description
+     */
+    void deleteEmployee(int id);
 }
